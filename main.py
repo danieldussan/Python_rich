@@ -2,6 +2,8 @@ import mysql.connector
 from rich.console import Console
 from rich.prompt import Prompt
 from rich.table import Table
+#fromn tabla_manu_rich import * --- Con este import puedo usar las funciones del archivo tabla_menu_rich.py y las puedo usar solo con el nombre
+#ejemplo imprimir_tabla(parametro)
 
 # Conexión a la base de datos
 mydb = mysql.connector.connect(
